@@ -11,4 +11,9 @@ public class PalindromeTest {
 	    Palindrome palindromeTester = new Palindrome();
 	    assertTrue(palindromeTester.isPalindrome("madam"));
 	}
+	@Test
+	public void whenEmptyString_thenAccept() {
+	    Palindrome palindromeTester = new Palindrome();
+	    assertTrue(palindromeTester.isPalindrome("malayalam"));
+	}
 }
